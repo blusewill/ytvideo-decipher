@@ -7,11 +7,11 @@ Which is a can be used easily I guess?????
 
 
 
-## Installation of Python script (Working in Progress)
+## Installation of Python script
 
 pip3 install -r requirement.txt
 
-python3 start.py
+python3 run.py
 
 And Follow the Steps it should be auto Generated to the result Folder
 
