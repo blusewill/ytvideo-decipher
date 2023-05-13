@@ -1,0 +1,3 @@
+git+https://github.com/dsymbol/decipher
+yt-dlp
+ffmpeg
