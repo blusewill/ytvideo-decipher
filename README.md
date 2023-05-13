@@ -26,8 +26,8 @@ And Follow the Steps it should be auto Generated to the result Folder
 
  ## Upcoming Feature
 
- -[ ] Make a translation by using GPT API
+- [ ] Make a translation by using GPT API
  
- -[ ] Generate the only plain text file
+- [ ] Generate the only plain text file
  
- -[ ] Local File Upload (Long term goal)
+- [ ] Local File Upload (Long term goal)
