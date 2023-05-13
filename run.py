@@ -1,14 +1,13 @@
 from decipher.action import transcribe
 import yt_dlp
 import os
-
-path = './.tmp'
+import shutil
+path = './temp'
 
 if not os.path.exists(path):
   os.mkdir(path)
 
 links = input("Please type your YouTube Video Link Here and Press Enter : ")
-name = input("Please type your SRT file name Here and Press Enter : ")
 
 ydl_opts = {
     'format': 'bestaudio/best',
@@ -17,14 +16,14 @@ ydl_opts = {
         'preferredcodec': 'aac',
         'preferredquality': '192',
     }],
-        'outtmpl': './.tmp/audio',
+        'outtmpl': './temp/audio',
 }
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([links])
 
 
-input = "./.tmp/audio.m4a"
-output_dir = "./{name}"
+input = "./temp/audio.m4a"
+output_dir = "./Generated"
 model = "medium"
 language = ""
 task = "transcribe"
@@ -41,3 +40,10 @@ transcribe(
     task,
     subtitle_action if subtitle_action != "None" else None
 )
+
+# Removing The Temp Audio Files
+
+directory_path = os.path.join(os.getcwd(), '../temp')
+
+os.path.exists(directory_path):
+shutil.rmtree(directory_path)
