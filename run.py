@@ -45,5 +45,5 @@ transcribe(
 
 directory_path = os.path.join(os.getcwd(), '../temp')
 
-os.path.exists(directory_path):
+os.path.exists(directory_path)
 shutil.rmtree(directory_path)
