@@ -26,7 +26,7 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
 
 input = "./temp/audio.m4a"
 output_dir = "./Generated"
-model = "small"
+model = "medium"
 language = ""
 task = "transcribe"
 subtitle_action = "None"
