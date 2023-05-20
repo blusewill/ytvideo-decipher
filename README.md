@@ -26,7 +26,7 @@ And Follow the Steps it should be auto Generated to the result Folder
 
  ## Upcoming Feature
 
-~~- [ ] Make a translation by using GPT API~~ (Closed due to OpenAI API is behind Paywall. Can't test the Script)
+~~Make a translation by using GPT API~~ (Closed due to OpenAI API is behind Paywall. Can't test the Script)
  
 - [ ] Generate the only plain text file
  
