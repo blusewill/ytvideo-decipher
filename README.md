@@ -18,7 +18,11 @@ And Follow the Steps it should be auto Generated to the result Folder
 
 ## Run in Google Colab
 
-### Important if you want to make it faster to generate, please enable the GPU in `Runtime -> Change Runtime Type -> Hardware accelerator` and Change the option to GPU
+1. Check the Runtime Type is on GPU Mode in ``Runtime -> Change Runtime Type ``
+1. Change the Settings at Settings Code Block
+1. Click ``Runtime -> Run all`` (CTRL+F9)
+1. Click on the Connect to Google Drive
+1. And Wait for a moment your Generated Srt should be on ``Google Drive -> Decipher -> result``
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/blusewill/ytvideo-decipher/blob/master/ytvideo_decipher.ipynb)
 
@@ -26,8 +30,6 @@ And Follow the Steps it should be auto Generated to the result Folder
 
  ## Upcoming Feature
 
-~~Make a translation by using GPT API~~ (Closed due to OpenAI API is behind Paywall. Can't test the Script)
- 
 - [ ] Generate the only plain text file
  
 - [ ] Local File Upload (Long term goal)
