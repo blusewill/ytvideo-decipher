@@ -33,3 +33,5 @@ And Follow the Steps it should be auto Generated to the result Folder
 - [ ] Generate the only plain text file
  
 - [ ] Local File Upload (Long term goal)
+
+- [ ] Use Cookie to grab videos
