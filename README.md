@@ -1,3 +1,5 @@
+# Will not Maintain this Project anymore Please use [ytvideo-whisper](https://github.com/blusewill/ytvideo-whisper) Project for the Future Update
+
 ## ytvideo-decipher
 
 
@@ -33,3 +35,5 @@ And Follow the Steps it should be auto Generated to the result Folder
 - [ ] Generate the only plain text file
  
 - [ ] Local File Upload (Long term goal)
+
+- [ ] Use Cookie to grab videos
